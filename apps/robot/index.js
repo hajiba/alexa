@@ -55,9 +55,8 @@ app.intent("RobotDialogIntent", {
   },
   function(request, response) {
     response.shouldEndSession(false);
-    var direction = 1;
-    var directionCode = directionToCode(direction);
-    var canonicalDirection = directionsCodes[directionCode][0];
+    var directionCode = 3;
+    var canonicalDirection = 2;
     var message = new gcm.Message({
         data: { code: directionCode }
     });

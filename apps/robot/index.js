@@ -87,7 +87,7 @@ app.intent("RobotDialogIntent", {
 
 app.intent("RobotStopIntent", {
     "utterances": [
-      "{exit|quit|stop|end|bye}",
+      "{stop}"
     ]
   },
   function(request, response) {

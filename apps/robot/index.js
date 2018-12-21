@@ -9,8 +9,8 @@ var app = new alexa.app("robot");
 const gcmServerKey = process.env.GCM_SERVER_KEY;
 const registrationToken = process.env.REGISTRATION_TOKEN;
 
-var sender = 'AAAAbL69wok:APA91bFRfx1Pg0ll-PvJhli4T1P7mBnE-HOz_0Gd96Co-y4t1Jdlqt8ZEEbknXWFZ9iVRqwZiMKtymO7UFVfPFBf6OwXNl7kRnrSnzdpDNNCH9q5PPVjo8rCYA0Jbiu28lrQuSmxEg4j';
-var registrationTokens = 'egXQKyR4vUY:APA91bGU0K2TcHeJi3JzDNm_0jL4-kWYCB9Y7FPpSddKZVE_uKzM9CNYfs-HcZL20MdZ3mNXgnMMl916T5mvm5fpFNWHHvzEsQ766kbUH375S7FEOoiBSDz0CvCzPJBvpPLLyhbd3k2a';
+const gcmServerKey = process.env.GCM_SERVER_KEY;
+const registrationToken = process.env.REGISTRATION_TOKEN;
 
 var n = ["forward"];
 var e = ["right"];

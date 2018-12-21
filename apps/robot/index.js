@@ -9,8 +9,8 @@ var app = new alexa.app("robot");
 const gcmServerKey = process.env.GCM_SERVER_KEY;
 const registrationToken = process.env.REGISTRATION_TOKEN;
 
-const gcmServerKey = process.env.GCM_SERVER_KEY;
-const registrationToken = process.env.REGISTRATION_TOKEN;
+var sender = new gcm.Sender(gcmServerKey);
+var registrationTokens = [registrationToken];
 
 var n = ["forward"];
 var e = ["right"];
